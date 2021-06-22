@@ -31,7 +31,7 @@ input.forEach((filename) => {
         (out, line) => {
           const m_track = TRACK_TITLE_RE.exec(line);
           if (m_track) {
-            const [, track] = m_track;
+            const [, title] = m_track;
             const offset = ((prev) => {
               if (prev) {
                 const max = Math.max(...prev.samples.map((x) => x.end));
@@ -42,7 +42,7 @@ input.forEach((filename) => {
               return 0;
             })(out.tracks.slice(-1)[0]);
 
-            out.tracks.push({ track, samples: [], offset });
+            out.tracks.push({ title, samples: [], offset });
 
             return out;
           }
@@ -53,12 +53,12 @@ input.forEach((filename) => {
 
           const m_sample = SAMPLE_RE.exec(line);
           if (m_sample) {
-            const [, start, end, artist, name] = m_sample;
+            const [, start, end, artist, title] = m_sample;
             out.tracks.slice(-1)[0].samples.push({
               start: mmss2s(start),
               end: mmss2s(end),
               artist,
-              name,
+              title,
             });
             return out;
           }
