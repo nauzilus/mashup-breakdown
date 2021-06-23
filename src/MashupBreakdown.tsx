@@ -103,6 +103,7 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
   return (
     <>
       <ReactPlayer
+        playing={player.playing}
         url={data.url}
         width="100%"
         height="200px"
@@ -149,6 +150,7 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
                   ? 0
                   : clamp(0, 100, ((windowEnd - sample.end) / zoom) * 100);
 
+              const title = `${sample.artist}, ${sample.title}`;
               return (
                 <div
                   key={sample.idx}
@@ -158,7 +160,15 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
                     .join(" ")}
                 >
                   <div className="description">
-                    {sample.artist}, {sample.title}
+                    <a
+                      target="_blank"
+                      href={`http://www.google.com/search?btnI&q=${encodeURIComponent(
+                        `site:youtube.com ${title}`
+                      )}`}
+                      onClick={() => player.pause()}
+                    >
+                      {title}
+                    </a>
                     <br />
                     <small>
                       {secondsToTime(sample.start)} -{" "}
