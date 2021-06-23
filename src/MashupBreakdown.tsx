@@ -1,7 +1,8 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { usePlayer } from "./hooks/usePlayer";
 import { clamp } from "./util/clamp";
 import { secondsToTime } from "./util/secondsToTime";
+import ReactPlayer from "react-player";
 
 export interface Sample {
   start: number;
@@ -17,6 +18,7 @@ export interface Track {
 }
 
 export interface Mashup {
+  url: string;
   filename: string;
   tracks: Track[];
 }
@@ -56,13 +58,17 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
       .map((sample, idx) => ({ ...sample, idx }));
   }, [data]);
 
-  const totalLength = useMemo(
-    () => tracks.reduce((sum, x) => sum + x.length, 0),
-    [tracks]
-  );
-  const [zoom] = useState(10); // seconds to show in the sliding window
-  const player = usePlayer(totalLength);
+  const [duration, setDuration] = useState(0);
+  const [zoom] = useState(30); // seconds to show in the sliding window
+  const player = usePlayer(duration);
   const seek = player.currentSeek();
+
+  const onProgress = useCallback(
+    (data: { playedSeconds: number }) => {
+      player.seek(data.playedSeconds);
+    },
+    [player.seek]
+  );
 
   useEffect(() => {
     if (player.playing) {
@@ -96,66 +102,75 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
 
   return (
     <>
-      <nav>
-        <button onClick={player.toggle}>
-          {player.playing ? "pause" : "play"}
-        </button>
-        {secondsToTime(seek)}
-      </nav>
-      <div className="seek-window">
-        <div className="seek-tracks">
-          {inViewTracks.map((track) => {
-            const active = track.start <= seek && track.end >= seek;
-            const start = Math.max(windowStart, track.start);
-            const end = Math.min(windowEnd, track.end);
-            const width = ((end - start) / zoom) * 100;
+      <ReactPlayer
+        url={data.url}
+        width="100%"
+        height="200px"
+        onReady={(rp) => setDuration(rp.getDuration())}
+        onPlay={player.play}
+        onPause={player.pause}
+        onProgress={onProgress}
+        onSeek={player.seek}
+        onEnded={player.pause}
+      />
+      {duration > 0 && (
+        <div className="seek-window">
+          <div className="seek-tracks">
+            {inViewTracks.map((track) => {
+              const active = track.start <= seek && track.end >= seek;
+              const start = Math.max(windowStart, track.start);
+              const end = Math.min(windowEnd, track.end);
+              const width = clamp(0, 100, ((end - start) / zoom) * 100);
+              const offset = windowStart < 0 ? (-windowStart / zoom) * 100 : 0;
 
-            return (
-              <div
-                key={track.title}
-                style={{ width: `${width}%` }}
-                className={["sample track", active && "active"]
-                  .filter(Boolean)
-                  .join(" ")}
-              >
-                {track.title}
-              </div>
-            );
-          })}
+              return (
+                <div
+                  key={track.title}
+                  style={{ width: `${width}%`, marginLeft: `${offset}%` }}
+                  className={["sample track", active && "active"]
+                    .filter(Boolean)
+                    .join(" ")}
+                >
+                  <div className="description">{track.title}</div>
+                </div>
+              );
+            })}
+          </div>
+          <div className="seek-samples">
+            {inViewSamples.map((sample) => {
+              const active = sample.start <= seek && sample.end >= seek;
+              const left =
+                sample.start <= windowStart
+                  ? 0
+                  : clamp(0, 100, ((sample.start - windowStart) / zoom) * 100);
+
+              const right =
+                sample.end >= windowEnd
+                  ? 0
+                  : clamp(0, 100, ((windowEnd - sample.end) / zoom) * 100);
+
+              return (
+                <div
+                  key={sample.idx}
+                  style={{ marginLeft: `${left}%`, marginRight: `${right}%` }}
+                  className={["sample", active && "active"]
+                    .filter(Boolean)
+                    .join(" ")}
+                >
+                  <div className="description">
+                    {sample.artist}, {sample.title}
+                    <br />
+                    <small>
+                      {secondsToTime(sample.start)} -{" "}
+                      {secondsToTime(sample.end)}
+                    </small>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
-        <div className="seek-samples">
-          {inViewSamples.map((sample) => {
-            const active = sample.start <= seek && sample.end >= seek;
-            const left =
-              sample.start <= windowStart
-                ? 0
-                : clamp(0, 100, ((sample.start - windowStart) / zoom) * 100);
-
-            const right =
-              sample.end >= windowEnd
-                ? 0
-                : clamp(0, 100, ((windowEnd - sample.end) / zoom) * 100);
-
-            return (
-              <div
-                key={sample.idx}
-                style={{ marginLeft: `${left}%`, marginRight: `${right}%` }}
-                className={["sample", active && "active"]
-                  .filter(Boolean)
-                  .join(" ")}
-              >
-                {sample.artist},
-                <br />
-                {sample.title}
-                <br />
-                <small>
-                  {secondsToTime(sample.start)} - {secondsToTime(sample.end)}
-                </small>
-              </div>
-            );
-          })}
-        </div>
-      </div>
+      )}
     </>
   );
 }

@@ -1,15 +1,13 @@
 import React from "react";
 import allDay from "./data/girl-talk_oh-no.json";
-import unstoppable from "./data/girl-talk_unstoppable.json";
+import feedTheAnimals from "./data/girl-talk_feed-the-animals.json";
+import nightRipper from "./data/girl-talk_night-ripper.json";
 import { MashupBreakdown } from "./MashupBreakdown";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Mashup Breakdown</h1>
-      </header>
-      <MashupBreakdown data={unstoppable} />
+      <MashupBreakdown data={nightRipper} />
     </div>
   );
 }

@@ -16,6 +16,10 @@
   left: 50%;
   border-left: 3px solid firebrick;
 }
+.seek-tracks {
+  display: flex;
+  flex-direction: row;
+}
 .seek-track {
   display: flex;
   flex-direction: row;
@@ -27,13 +31,16 @@
   position: relative;
 }
 .sample {
-  margin: 0.3em 0;
-  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 2px 0;
   display: inline-block;
   border: 1px solid black;
   white-space: nowrap;
   transition: 100ms all linear;
   background-color: aliceblue;
+}
+.sample > .description {
+  margin: 0.5rem;
 }
 .sample.active {
   background-color: chartreuse;
