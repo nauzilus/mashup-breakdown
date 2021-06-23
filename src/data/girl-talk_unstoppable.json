@@ -1,0 +1,2105 @@
+{
+  "filename": "girl-talk_unstoppable.txt",
+  "tracks": [
+    {
+      "title": "Play Your Part (Pt. 1)",
+      "samples": [
+        {
+          "start": 0,
+          "end": 41,
+          "artist": "Roy Orbison",
+          "title": "Oh, Pretty Woman"
+        },
+        {
+          "start": 1,
+          "end": 41,
+          "artist": "UGK featuring Outkast",
+          "title": "Int'l Players Anthem (I Choose You)"
+        },
+        {
+          "start": 2,
+          "end": 131,
+          "artist": "The Spencer Davis Group",
+          "title": "Gimme Some Lovin'"
+        },
+        {
+          "start": 41,
+          "end": 284,
+          "artist": "DJ Funk",
+          "title": "Pump That (Prelude)"
+        },
+        {
+          "start": 54,
+          "end": 79,
+          "artist": "Cupid",
+          "title": "Cupid Shuffle"
+        },
+        {
+          "start": 67,
+          "end": 117,
+          "artist": "Pete Townshend",
+          "title": "Let My Love Open the Door"
+        },
+        {
+          "start": 79,
+          "end": 130,
+          "artist": "Unk",
+          "title": "Walk It Out"
+        },
+        {
+          "start": 117,
+          "end": 156,
+          "artist": "Twisted Sister",
+          "title": "We're Not Gonna Take It"
+        },
+        {
+          "start": 124,
+          "end": 130,
+          "artist": "Huey Lewis and the News",
+          "title": "The Heart of Rock & Roll"
+        },
+        {
+          "start": 131,
+          "end": 156,
+          "artist": "Lil Mama",
+          "title": "G-Slide (Tour Bus)"
+        },
+        {
+          "start": 150,
+          "end": 191,
+          "artist": "Ludacris featuring Shawnna",
+          "title": "What's Your Fantasy"
+        },
+        {
+          "start": 156,
+          "end": 181,
+          "artist": "Temple of the Dog",
+          "title": "Hunger Strike"
+        },
+        {
+          "start": 168,
+          "end": 181,
+          "artist": "Birdman featuring Lil Wayne",
+          "title": "Pop Bottles"
+        },
+        {
+          "start": 181,
+          "end": 195,
+          "artist": "Rage Against the Machine",
+          "title": "Freedom"
+        },
+        {
+          "start": 182,
+          "end": 245,
+          "artist": "Aaliyah featuring Timbaland",
+          "title": "We Need a Resolution"
+        },
+        {
+          "start": 182,
+          "end": 246,
+          "artist": "Birdman and Lil Wayne",
+          "title": "Stuntin' Like My Daddy"
+        },
+        {
+          "start": 185,
+          "end": 265,
+          "artist": "T.I.",
+          "title": "What You Know"
+        },
+        {
+          "start": 197,
+          "end": 218,
+          "artist": "Edwin Starr",
+          "title": "War"
+        },
+        {
+          "start": 220,
+          "end": 271,
+          "artist": "Sinéad O'Connor",
+          "title": "Nothing Compares 2 U"
+        },
+        {
+          "start": 252,
+          "end": 283,
+          "artist": "Shawnna",
+          "title": "Gettin' Some"
+        },
+        {
+          "start": 271,
+          "end": 284,
+          "artist": "Jay-Z featuring UGK",
+          "title": "Big Pimpin'"
+        },
+        {
+          "start": 272,
+          "end": 282,
+          "artist": "Joe Budden",
+          "title": "Drop Drop"
+        },
+        {
+          "start": 273,
+          "end": 281,
+          "artist": "Kelis featuring Too Short",
+          "title": "Bossy"
+        },
+        {
+          "start": 274,
+          "end": 281,
+          "artist": "Young Jeezy featuring Bone Crusher",
+          "title": "Take It to the Floor"
+        },
+        {
+          "start": 277,
+          "end": 284,
+          "artist": "Rare Earth",
+          "title": "I Just Want to Celebrate"
+        }
+      ],
+      "offset": 0
+    },
+    {
+      "title": "Shut the Club Down",
+      "samples": [
+        {
+          "start": 0,
+          "end": 66,
+          "artist": "Avril Lavigne",
+          "title": "Girlfriend"
+        },
+        {
+          "start": 0,
+          "end": 11,
+          "artist": "DJ Funk",
+          "title": "Pump That (Prelude)"
+        },
+        {
+          "start": 1,
+          "end": 8,
+          "artist": "Jay-Z featuring UGK",
+          "title": "Big Pimpin'"
+        },
+        {
+          "start": 9,
+          "end": 57,
+          "artist": "Dolla featuring T-Pain and Tay Dizm",
+          "title": "Who the Fuck Is That?"
+        },
+        {
+          "start": 14,
+          "end": 116,
+          "artist": "Toni Basil",
+          "title": "Mickey"
+        },
+        {
+          "start": 59,
+          "end": 126,
+          "artist": "Rich Boy featuring Polow da Don",
+          "title": "Throw Some D's"
+        },
+        {
+          "start": 70,
+          "end": 122,
+          "artist": "Aphex Twin",
+          "title": "Girl/Boy Song"
+        },
+        {
+          "start": 70,
+          "end": 184,
+          "artist": "Dem Franchize Boyz",
+          "title": "Talkin' Out da Side of Ya Neck!"
+        },
+        {
+          "start": 93,
+          "end": 125,
+          "artist": "The J. Geils Band",
+          "title": "Love Stinks"
+        },
+        {
+          "start": 125,
+          "end": 127,
+          "artist": "Butthole Surfers",
+          "title": "Pepper"
+        },
+        {
+          "start": 127,
+          "end": 151,
+          "artist": "Ray J featuring Yung Berg",
+          "title": "Sexy Can I"
+        },
+        {
+          "start": 128,
+          "end": 184,
+          "artist": "Michael Sembello",
+          "title": "Maniac"
+        },
+        {
+          "start": 128,
+          "end": 174,
+          "artist": "Rod Stewart",
+          "title": "Young Turks"
+        },
+        {
+          "start": 151,
+          "end": 174,
+          "artist": "Ahmad",
+          "title": "Back in the Day"
+        },
+        {
+          "start": 175,
+          "end": 183,
+          "artist": "The Cool Kids",
+          "title": "Gold and a Pager"
+        },
+        {
+          "start": 179,
+          "end": 186,
+          "artist": "YoungBloodZ featuring Lil Jon",
+          "title": "Damn!"
+        }
+      ],
+      "offset": 284
+    },
+    {
+      "title": "Still Here",
+      "samples": [
+        {
+          "start": 0,
+          "end": 22,
+          "artist": "Procol Harum",
+          "title": "A Whiter Shade of Pale"
+        },
+        {
+          "start": 0,
+          "end": 31,
+          "artist": "Kanye West featuring T-Pain",
+          "title": "Good Life"
+        },
+        {
+          "start": 0,
+          "end": 33,
+          "artist": "YoungBloodZ featuring Lil Jon",
+          "title": "Damn!"
+        },
+        {
+          "start": 22,
+          "end": 97,
+          "artist": "Blackstreet featuring Dr. Dre",
+          "title": "No Diggity"
+        },
+        {
+          "start": 28,
+          "end": 65,
+          "artist": "Michael Jackson",
+          "title": "Stranger in Moscow"
+        },
+        {
+          "start": 34,
+          "end": 76,
+          "artist": "Kanye West featuring Dwele",
+          "title": "Flashing Lights"
+        },
+        {
+          "start": 77,
+          "end": 109,
+          "artist": "Radiohead",
+          "title": "15 Step"
+        },
+        {
+          "start": 88,
+          "end": 127,
+          "artist": "Webbie featuring Lil Boosie and Lil Phat",
+          "title": "Independent"
+        },
+        {
+          "start": 98,
+          "end": 130,
+          "artist": "The Band",
+          "title": "The Weight"
+        },
+        {
+          "start": 101,
+          "end": 118,
+          "artist": "Yung Joc featuring Nitti",
+          "title": "It's Goin' Down"
+        },
+        {
+          "start": 119,
+          "end": 148,
+          "artist": "Miri Ben-Ari featuring Fatman Scoop, Zion & Lennox, and Pitbull",
+          "title": "Jump & Spread Out"
+        },
+        {
+          "start": 129,
+          "end": 130,
+          "artist": "Ben Folds Five",
+          "title": "Battle of Who Could Care Less"
+        },
+        {
+          "start": 129,
+          "end": 203,
+          "artist": "Cassidy featuring Swizz Beatz",
+          "title": "My Drink n My 2 Step"
+        },
+        {
+          "start": 130,
+          "end": 183,
+          "artist": "Ace of Base",
+          "title": "All That She Wants"
+        },
+        {
+          "start": 130,
+          "end": 193,
+          "artist": "Lil Scrappy featuring Young Buck",
+          "title": "Money in the Bank"
+        },
+        {
+          "start": 182,
+          "end": 214,
+          "artist": "Kenny Loggins",
+          "title": "Footloose"
+        },
+        {
+          "start": 183,
+          "end": 214,
+          "artist": "Fergie",
+          "title": "London Bridge"
+        },
+        {
+          "start": 184,
+          "end": 231,
+          "artist": "Gorilla Zoe",
+          "title": "Hood N*gga"
+        },
+        {
+          "start": 214,
+          "end": 215,
+          "artist": "Salt-N-Pepa and En Vogue",
+          "title": "Whatta Man"
+        },
+        {
+          "start": 215,
+          "end": 231,
+          "artist": "Beastie Boys",
+          "title": "So What'cha Want"
+        },
+        {
+          "start": 216,
+          "end": 236,
+          "artist": "Queen",
+          "title": "We Will Rock You"
+        },
+        {
+          "start": 221,
+          "end": 236,
+          "artist": "50 Cent",
+          "title": "I Get Money"
+        },
+        {
+          "start": 221,
+          "end": 237,
+          "artist": "Cat Stevens",
+          "title": "Here Comes My Baby"
+        }
+      ],
+      "offset": 470
+    },
+    {
+      "title": "What It's All About",
+      "samples": [
+        {
+          "start": 0,
+          "end": 10,
+          "artist": "Beyoncé",
+          "title": "Ring the Alarm"
+        },
+        {
+          "start": 0,
+          "end": 20,
+          "artist": "DJ Funk",
+          "title": "Doggy Style"
+        },
+        {
+          "start": 0,
+          "end": 18,
+          "artist": "Queen",
+          "title": "We Will Rock You"
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "artist": "Beastie Boys",
+          "title": "So What'cha Want"
+        },
+        {
+          "start": 18,
+          "end": 21,
+          "artist": "Phil Collins",
+          "title": "In the Air Tonight"
+        },
+        {
+          "start": 20,
+          "end": 94,
+          "artist": "Busta Rhymes",
+          "title": "Woo Hah!! Got You All in Check"
+        },
+        {
+          "start": 21,
+          "end": 63,
+          "artist": "The Police",
+          "title": "Every Little Thing She Does Is Magic"
+        },
+        {
+          "start": 39,
+          "end": 93,
+          "artist": "The Cure",
+          "title": "Close to Me"
+        },
+        {
+          "start": 63,
+          "end": 80,
+          "artist": "Ini Kamoze",
+          "title": "Here Comes the Hotstepper"
+        },
+        {
+          "start": 65,
+          "end": 92,
+          "artist": "Wilson Pickett",
+          "title": "Land of 1000 Dances"
+        },
+        {
+          "start": 93,
+          "end": 95,
+          "artist": "Rotary Connection",
+          "title": "Memory Band"
+        },
+        {
+          "start": 95,
+          "end": 116,
+          "artist": "DJ Assault",
+          "title": "Ass-n-Titties"
+        },
+        {
+          "start": 95,
+          "end": 135,
+          "artist": "Faith No More",
+          "title": "Epic"
+        },
+        {
+          "start": 95,
+          "end": 111,
+          "artist": "Mike Jones featuring Hurricane Chris",
+          "title": "Drop & Gimme 50"
+        },
+        {
+          "start": 98,
+          "end": 116,
+          "artist": "Kidz in the Hall featuring Masta Ace",
+          "title": "Drivin' Down the Block (Low End Theory)"
+        },
+        {
+          "start": 117,
+          "end": 136,
+          "artist": "Junior Reid",
+          "title": "One Blood"
+        },
+        {
+          "start": 119,
+          "end": 138,
+          "artist": "Boogie Down Productions",
+          "title": "Criminal Minded"
+        },
+        {
+          "start": 138,
+          "end": 148,
+          "artist": "Paula Cole",
+          "title": "I Don't Want to Wait"
+        },
+        {
+          "start": 138,
+          "end": 148,
+          "artist": "Yung Joc featuring Brandy \"Ms. B\" Hambrick",
+          "title": "I Know You See It"
+        },
+        {
+          "start": 139,
+          "end": 209,
+          "artist": "Tones on Tail",
+          "title": "Go!"
+        },
+        {
+          "start": 144,
+          "end": 149,
+          "artist": "Beanie Sigel and Freeway",
+          "title": "Roc the Mic"
+        },
+        {
+          "start": 149,
+          "end": 191,
+          "artist": "Argent",
+          "title": "Hold Your Head Up"
+        },
+        {
+          "start": 149,
+          "end": 191,
+          "artist": "Wu-Tang Clan",
+          "title": "C.R.E.A.M."
+        },
+        {
+          "start": 170,
+          "end": 188,
+          "artist": "Terence Trent D'Arby",
+          "title": "Wishing Well"
+        },
+        {
+          "start": 191,
+          "end": 207,
+          "artist": "N.W.A",
+          "title": "Dope Man"
+        },
+        {
+          "start": 196,
+          "end": 196,
+          "artist": "50 Cent",
+          "title": "What Up Gangsta"
+        },
+        {
+          "start": 196,
+          "end": 199,
+          "artist": "Genesis",
+          "title": "Mama"
+        },
+        {
+          "start": 197,
+          "end": 204,
+          "artist": "Yeah Yeah Yeahs",
+          "title": "Gold Lion"
+        },
+        {
+          "start": 199,
+          "end": 201,
+          "artist": "Bow Wow Wow",
+          "title": "I Want Candy"
+        },
+        {
+          "start": 205,
+          "end": 205,
+          "artist": "T.I. featuring Wyclef Jean",
+          "title": "You Know What It Is"
+        },
+        {
+          "start": 209,
+          "end": 212,
+          "artist": "Outkast",
+          "title": "Ms. Jackson"
+        },
+        {
+          "start": 212,
+          "end": 247,
+          "artist": "Vanilla Ice",
+          "title": "Havin' a Roni"
+        },
+        {
+          "start": 212,
+          "end": 243,
+          "artist": "The Jackson 5",
+          "title": "ABC"
+        },
+        {
+          "start": 213,
+          "end": 250,
+          "artist": "Rihanna featuring Jay-Z",
+          "title": "Umbrella"
+        },
+        {
+          "start": 233,
+          "end": 254,
+          "artist": "Queen",
+          "title": "Bohemian Rhapsody"
+        }
+      ],
+      "offset": 707
+    },
+    {
+      "title": "Set It Off",
+      "samples": [
+        {
+          "start": 0,
+          "end": 18,
+          "artist": "Rihanna featuring Jay-Z",
+          "title": "Umbrella"
+        },
+        {
+          "start": 0,
+          "end": 15,
+          "artist": "Ying Yang Twins",
+          "title": "Jigglin'"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "artist": "Vanilla Ice",
+          "title": "Havin' a Roni"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "artist": "Swizz Beatz",
+          "title": "Take a Picture"
+        },
+        {
+          "start": 7,
+          "end": 19,
+          "artist": "Eric B. & Rakim",
+          "title": "Eric B. Is President"
+        },
+        {
+          "start": 19,
+          "end": 81,
+          "artist": "Jay-Z",
+          "title": "Roc Boys (And the Winner Is)..."
+        },
+        {
+          "start": 20,
+          "end": 81,
+          "artist": "Radiohead",
+          "title": "Paranoid Android"
+        },
+        {
+          "start": 20,
+          "end": 86,
+          "artist": "Kelly Rowland featuring Eve",
+          "title": "Like This"
+        },
+        {
+          "start": 61,
+          "end": 85,
+          "artist": "GZA",
+          "title": "Liquid Swords"
+        },
+        {
+          "start": 84,
+          "end": 123,
+          "artist": "Mary J. Blige",
+          "title": "Real Love"
+        },
+        {
+          "start": 85,
+          "end": 123,
+          "artist": "The Guess Who",
+          "title": "These Eyes"
+        },
+        {
+          "start": 123,
+          "end": 129,
+          "artist": "Aerosmith",
+          "title": "Sweet Emotion"
+        },
+        {
+          "start": 124,
+          "end": 148,
+          "artist": "Ice Cube featuring Das EFX",
+          "title": "Check Yo Self"
+        },
+        {
+          "start": 128,
+          "end": 157,
+          "artist": "Young Gunz",
+          "title": "Set It Off"
+        },
+        {
+          "start": 155,
+          "end": 221,
+          "artist": "DJ Kool",
+          "title": "Let Me Clear My Throat"
+        },
+        {
+          "start": 157,
+          "end": 173,
+          "artist": "Fine Young Cannibals",
+          "title": "She Drives Me Crazy"
+        },
+        {
+          "start": 157,
+          "end": 173,
+          "artist": "Mistah F.A.B. featuring Turf Talk and E-40",
+          "title": "Super Sic wit It"
+        },
+        {
+          "start": 157,
+          "end": 173,
+          "artist": "The Spinners",
+          "title": "The Rubberband Man"
+        },
+        {
+          "start": 167,
+          "end": 176,
+          "artist": "Bubba Sparxxx featuring Ying Yang Twins and Mr. Collipark",
+          "title": "Ms. New Booty"
+        },
+        {
+          "start": 175,
+          "end": 210,
+          "artist": "Dexys Midnight Runners",
+          "title": "Come On Eileen"
+        },
+        {
+          "start": 176,
+          "end": 219,
+          "artist": "Bubba Sparxxx",
+          "title": "Heat It Up"
+        },
+        {
+          "start": 210,
+          "end": 212,
+          "artist": "Thin Lizzy",
+          "title": "Johnny the Fox Meets Jimmy the Weed"
+        },
+        {
+          "start": 212,
+          "end": 221,
+          "artist": "Eddie Floyd",
+          "title": "Knock on Wood"
+        },
+        {
+          "start": 219,
+          "end": 221,
+          "artist": "Fatman Scoop featuring The Crooklyn Clan",
+          "title": "Be Faithful"
+        }
+      ],
+      "offset": 961
+    },
+    {
+      "title": "No Pause",
+      "samples": [
+        {
+          "start": 0,
+          "end": 56,
+          "artist": "Missy Elliott",
+          "title": "Work It"
+        },
+        {
+          "start": 0,
+          "end": 13,
+          "artist": "Faith Evans",
+          "title": "Love Like This"
+        },
+        {
+          "start": 0,
+          "end": 52,
+          "artist": "Tom Tom Club",
+          "title": "Genius of Love"
+        },
+        {
+          "start": 13,
+          "end": 17,
+          "artist": "Fatman Scoop featuring The Crooklyn Clan",
+          "title": "Be Faithful"
+        },
+        {
+          "start": 18,
+          "end": 54,
+          "artist": "Nu Shooz",
+          "title": "I Can't Wait"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "artist": "Jurassic 5",
+          "title": "Baby Please"
+        },
+        {
+          "start": 56,
+          "end": 56,
+          "artist": "Smokey Robinson and the Miracles",
+          "title": "Going to a Go-Go"
+        },
+        {
+          "start": 58,
+          "end": 59,
+          "artist": "Afrika Bambaataa and Soulsonic Force",
+          "title": "Looking for the Perfect Beat"
+        },
+        {
+          "start": 59,
+          "end": 61,
+          "artist": "Kid 'n Play",
+          "title": "Gittin' Funky"
+        },
+        {
+          "start": 61,
+          "end": 91,
+          "artist": "Heart",
+          "title": "Magic Man"
+        },
+        {
+          "start": 64,
+          "end": 91,
+          "artist": "Public Enemy",
+          "title": "Rebel Without a Pause"
+        },
+        {
+          "start": 91,
+          "end": 104,
+          "artist": "Andrea True Connection",
+          "title": "More, More, More"
+        },
+        {
+          "start": 91,
+          "end": 182,
+          "artist": "Missy Elliott",
+          "title": "Ching-a-Ling"
+        },
+        {
+          "start": 91,
+          "end": 104,
+          "artist": "Ol' Dirty Bastard featuring Kelis",
+          "title": "Got Your Money"
+        },
+        {
+          "start": 92,
+          "end": 146,
+          "artist": "Young Leek",
+          "title": "Jiggle It"
+        },
+        {
+          "start": 93,
+          "end": 127,
+          "artist": "Spank Rock",
+          "title": "Put That Pussy on Me"
+        },
+        {
+          "start": 94,
+          "end": 125,
+          "artist": "E-40 featuring Keak da Sneak",
+          "title": "Tell Me When to Go"
+        },
+        {
+          "start": 105,
+          "end": 109,
+          "artist": "Tears for Fears",
+          "title": "Head over Heels"
+        },
+        {
+          "start": 109,
+          "end": 127,
+          "artist": "Cheap Trick",
+          "title": "I Want You to Want Me"
+        },
+        {
+          "start": 128,
+          "end": 141,
+          "artist": "Bob James",
+          "title": "Take Me to the Mardi Gras"
+        },
+        {
+          "start": 141,
+          "end": 145,
+          "artist": "The Jimi Hendrix Experience",
+          "title": "Purple Haze"
+        },
+        {
+          "start": 145,
+          "end": 145,
+          "artist": "Swing Out Sister",
+          "title": "Breakout"
+        },
+        {
+          "start": 146,
+          "end": 191,
+          "artist": "Yael Naim",
+          "title": "New Soul"
+        },
+        {
+          "start": 155,
+          "end": 182,
+          "artist": "Eminem featuring Nate Dogg",
+          "title": "Shake That"
+        },
+        {
+          "start": 182,
+          "end": 192,
+          "artist": "Beyoncé",
+          "title": "Get Me Bodied"
+        },
+        {
+          "start": 191,
+          "end": 192,
+          "artist": "Jay-Z",
+          "title": "La-La-La (Excuse Me Miss Again)"
+        }
+      ],
+      "offset": 1182
+    },
+    {
+      "title": "Like This",
+      "samples": [
+        {
+          "start": 0,
+          "end": 54,
+          "artist": "Beyoncé",
+          "title": "Get Me Bodied"
+        },
+        {
+          "start": 0,
+          "end": 18,
+          "artist": "James Gang",
+          "title": "Funk #49"
+        },
+        {
+          "start": 4,
+          "end": 35,
+          "artist": "LL Cool J",
+          "title": "Mama Said Knock You Out"
+        },
+        {
+          "start": 18,
+          "end": 34,
+          "artist": "En Vogue",
+          "title": "Free Your Mind"
+        },
+        {
+          "start": 18,
+          "end": 70,
+          "artist": "Soul II Soul",
+          "title": "Back to Life (However Do You Want Me)"
+        },
+        {
+          "start": 25,
+          "end": 27,
+          "artist": "Rick Astley",
+          "title": "Never Gonna Give You Up"
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "artist": "Hi-Five",
+          "title": "I Just Can't Handle It\" (Extended 12"
+        },
+        {
+          "start": 36,
+          "end": 54,
+          "artist": "The Jackson 5",
+          "title": "Dancing Machine"
+        },
+        {
+          "start": 36,
+          "end": 66,
+          "artist": "Beastie Boys",
+          "title": "Body Movin'"
+        },
+        {
+          "start": 54,
+          "end": 66,
+          "artist": "Nine Inch Nails",
+          "title": "Down in It"
+        },
+        {
+          "start": 57,
+          "end": 72,
+          "artist": "Rick Derringer",
+          "title": "Rock and Roll, Hoochie Koo"
+        },
+        {
+          "start": 58,
+          "end": 72,
+          "artist": "DJ Excel featuring The Marxmen and Stik-E & the Hoodz",
+          "title": "Bounce One Time"
+        },
+        {
+          "start": 59,
+          "end": 70,
+          "artist": "Busta Rhymes featuring Kelis",
+          "title": "What It Is"
+        },
+        {
+          "start": 59,
+          "end": 70,
+          "artist": "Trick Daddy",
+          "title": "Drop (Low, Low, Low)"
+        },
+        {
+          "start": 61,
+          "end": 62,
+          "artist": "Gwen Stefani",
+          "title": "Serious"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "artist": "Bubba Sparxxx featuring Ying Yang Twins and Mr. Collipark",
+          "title": "Ms. New Booty"
+        },
+        {
+          "start": 72,
+          "end": 119,
+          "artist": "Pras featuring Ol' Dirty Bastard and Mýa",
+          "title": "Ghetto Supastar (That Is What You Are)"
+        },
+        {
+          "start": 73,
+          "end": 109,
+          "artist": "Yo La Tengo",
+          "title": "Autumn Sweater"
+        },
+        {
+          "start": 91,
+          "end": 107,
+          "artist": "Southside Movement",
+          "title": "Save the World"
+        },
+        {
+          "start": 108,
+          "end": 109,
+          "artist": "INXS",
+          "title": "What You Need"
+        },
+        {
+          "start": 109,
+          "end": 141,
+          "artist": "The Bangles",
+          "title": "Walk Like an Egyptian"
+        },
+        {
+          "start": 109,
+          "end": 141,
+          "artist": "Eric B. & Rakim",
+          "title": "Paid in Full"
+        },
+        {
+          "start": 109,
+          "end": 123,
+          "artist": "Janet Jackson",
+          "title": "Nasty"
+        },
+        {
+          "start": 110,
+          "end": 143,
+          "artist": "Mims",
+          "title": "Like This"
+        },
+        {
+          "start": 111,
+          "end": 122,
+          "artist": "Diana Ross",
+          "title": "Upside Down"
+        },
+        {
+          "start": 114,
+          "end": 125,
+          "artist": "Eve",
+          "title": "Tambourine"
+        },
+        {
+          "start": 125,
+          "end": 126,
+          "artist": "K7",
+          "title": "Come Baby Come"
+        },
+        {
+          "start": 127,
+          "end": 146,
+          "artist": "The Carpenters",
+          "title": "Superstar"
+        },
+        {
+          "start": 146,
+          "end": 199,
+          "artist": "Metallica",
+          "title": "One"
+        },
+        {
+          "start": 155,
+          "end": 191,
+          "artist": "Lil Mama",
+          "title": "Lip Gloss"
+        },
+        {
+          "start": 192,
+          "end": 199,
+          "artist": "Soulja Boy",
+          "title": "Donk"
+        },
+        {
+          "start": 200,
+          "end": 200,
+          "artist": "Big Boi featuring André 3000 and Raekwon",
+          "title": "Royal Flush"
+        }
+      ],
+      "offset": 1374
+    },
+    {
+      "title": "Give Me a Beat",
+      "samples": [
+        {
+          "start": 0,
+          "end": 50,
+          "artist": "E-40 featuring Lil Jon",
+          "title": "Turf Drop"
+        },
+        {
+          "start": 0,
+          "end": 35,
+          "artist": "Styx",
+          "title": "Renegade"
+        },
+        {
+          "start": 0,
+          "end": 50,
+          "artist": "Soulja Boy",
+          "title": "Donk"
+        },
+        {
+          "start": 6,
+          "end": 26,
+          "artist": "Dr. Dre featuring Daz Dillinger, Snoop Dogg, and Kurupt",
+          "title": "Bitches Ain't Shit"
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "artist": "Janet Jackson",
+          "title": "Nasty"
+        },
+        {
+          "start": 36,
+          "end": 84,
+          "artist": "Jane Child",
+          "title": "Don't Wanna Fall in Love"
+        },
+        {
+          "start": 36,
+          "end": 44,
+          "artist": "Guy",
+          "title": "D-O-G Me Out"
+        },
+        {
+          "start": 38,
+          "end": 38,
+          "artist": "Boz Scaggs",
+          "title": "Lowdown"
+        },
+        {
+          "start": 40,
+          "end": 49,
+          "artist": "Pebbles",
+          "title": "Giving You the Benefit"
+        },
+        {
+          "start": 44,
+          "end": 48,
+          "artist": "Steve Miller Band",
+          "title": "Take the Money and Run"
+        },
+        {
+          "start": 44,
+          "end": 46,
+          "artist": "Artz & Kraftz",
+          "title": "What a Feeling"
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "artist": "Full Force Family featuring Lisa Lisa and Cult Jam, UTFO, Cheryl Pepsii Riley, Doctor Ice, Ex Girlfriend, and E-Crof",
+          "title": "House Party"
+        },
+        {
+          "start": 51,
+          "end": 85,
+          "artist": "Carole King",
+          "title": "It's Too Late"
+        },
+        {
+          "start": 52,
+          "end": 84,
+          "artist": "Birdman featuring Young Jeezy, Rick Ross, and Lil Wayne",
+          "title": "100 Million"
+        },
+        {
+          "start": 68,
+          "end": 92,
+          "artist": "Afrika Bambaataa and Soulsonic Force",
+          "title": "Renegades of Funk"
+        },
+        {
+          "start": 84,
+          "end": 134,
+          "artist": "Timbaland featuring Nelly Furtado and Justin Timberlake",
+          "title": "Give It to Me"
+        },
+        {
+          "start": 90,
+          "end": 92,
+          "artist": "Snap!",
+          "title": "The Power"
+        },
+        {
+          "start": 92,
+          "end": 124,
+          "artist": "Air",
+          "title": "Sexy Boy"
+        },
+        {
+          "start": 92,
+          "end": 122,
+          "artist": "Britney Spears",
+          "title": "Gimme More"
+        },
+        {
+          "start": 110,
+          "end": 140,
+          "artist": "Lloyd featuring Ludacris",
+          "title": "How We Do It (Around My Way)"
+        },
+        {
+          "start": 125,
+          "end": 204,
+          "artist": "Timbaland & Magoo featuring Fatman Scoop",
+          "title": "Drop"
+        },
+        {
+          "start": 126,
+          "end": 136,
+          "artist": "Siouxsie and the Banshees",
+          "title": "Kiss Them for Me"
+        },
+        {
+          "start": 136,
+          "end": 140,
+          "artist": "Cheryl Lynn",
+          "title": "Got to Be Real"
+        },
+        {
+          "start": 140,
+          "end": 195,
+          "artist": "Madonna featuring Justin Timberlake and Timbaland",
+          "title": "4 Minutes"
+        },
+        {
+          "start": 140,
+          "end": 188,
+          "artist": "Tom Petty and the Heartbreakers",
+          "title": "American Girl"
+        },
+        {
+          "start": 172,
+          "end": 188,
+          "artist": "Hall & Oates",
+          "title": "Out of Touch"
+        },
+        {
+          "start": 190,
+          "end": 211,
+          "artist": "Of Montreal",
+          "title": "Gronlandic Edit"
+        },
+        {
+          "start": 210,
+          "end": 212,
+          "artist": "Prince and The Revolution",
+          "title": "Kiss"
+        },
+        {
+          "start": 212,
+          "end": 250,
+          "artist": "Ice Cube",
+          "title": "AmeriKKKa's Most Wanted"
+        },
+        {
+          "start": 212,
+          "end": 244,
+          "artist": "Hot Chocolate",
+          "title": "Every 1's a Winner"
+        },
+        {
+          "start": 244,
+          "end": 250,
+          "artist": "Daft Punk",
+          "title": "Face to Face"
+        },
+        {
+          "start": 250,
+          "end": 252,
+          "artist": "Big Country",
+          "title": "In a Big Country"
+        }
+      ],
+      "offset": 1574
+    },
+    {
+      "title": "Hands in the Air",
+      "samples": [
+        {
+          "start": 0,
+          "end": 75,
+          "artist": "Big Country",
+          "title": "In a Big Country"
+        },
+        {
+          "start": 0,
+          "end": 60,
+          "artist": "Tag Team",
+          "title": "Whoomp! (There It Is)"
+        },
+        {
+          "start": 15,
+          "end": 90,
+          "artist": "Kraftwerk",
+          "title": "Numbers"
+        },
+        {
+          "start": 60,
+          "end": 98,
+          "artist": "Afrika Bambaataa and Soulsonic Force",
+          "title": "Planet Rock"
+        },
+        {
+          "start": 75,
+          "end": 88,
+          "artist": "The Cardigans",
+          "title": "Lovefool"
+        },
+        {
+          "start": 77,
+          "end": 90,
+          "artist": "Hot Chip",
+          "title": "Ready for the Floor"
+        },
+        {
+          "start": 91,
+          "end": 143,
+          "artist": "Flo Rida featuring T-Pain",
+          "title": "Low"
+        },
+        {
+          "start": 98,
+          "end": 143,
+          "artist": "Justin Timberlake featuring T.I.",
+          "title": "My Love"
+        },
+        {
+          "start": 98,
+          "end": 128,
+          "artist": "The Velvet Underground",
+          "title": "Sunday Morning"
+        },
+        {
+          "start": 128,
+          "end": 188,
+          "artist": "Timbaland featuring Keri Hilson and D.O.E.",
+          "title": "The Way I Are"
+        },
+        {
+          "start": 130,
+          "end": 188,
+          "artist": "Yo Majesty",
+          "title": "Club Action"
+        },
+        {
+          "start": 143,
+          "end": 188,
+          "artist": "Stardust",
+          "title": "Music Sounds Better with You"
+        },
+        {
+          "start": 157,
+          "end": 158,
+          "artist": "Genesis",
+          "title": "Invisible Touch"
+        },
+        {
+          "start": 173,
+          "end": 203,
+          "artist": "Michael Jackson",
+          "title": "Wanna Be Startin' Somethin'"
+        },
+        {
+          "start": 192,
+          "end": 251,
+          "artist": "Sly and the Family Stone",
+          "title": "Dance to the Music"
+        },
+        {
+          "start": 211,
+          "end": 241,
+          "artist": "George Clinton",
+          "title": "R&B Skeletons (In the Closet)"
+        },
+        {
+          "start": 225,
+          "end": 254,
+          "artist": "The Edgar Winter Group",
+          "title": "Free Ride"
+        },
+        {
+          "start": 240,
+          "end": 241,
+          "artist": "Tone Lōc",
+          "title": "Funky Cold Medina"
+        },
+        {
+          "start": 242,
+          "end": 259,
+          "artist": "P. Diddy, Black Rob, and Mark Curry",
+          "title": "Bad Boy for Life"
+        },
+        {
+          "start": 242,
+          "end": 260,
+          "artist": "Bossman",
+          "title": "You're Wrong"
+        },
+        {
+          "start": 252,
+          "end": 258,
+          "artist": "Jermaine Stewart",
+          "title": "We Don't Have to Take Our Clothes Off"
+        },
+        {
+          "start": 252,
+          "end": 259,
+          "artist": "Janet Jackson and Nelly",
+          "title": "Call on Me"
+        },
+        {
+          "start": 253,
+          "end": 259,
+          "artist": "Drama",
+          "title": "Left, Right, Left"
+        },
+        {
+          "start": 259,
+          "end": 260,
+          "artist": "Janet Jackson",
+          "title": "Escapade"
+        }
+      ],
+      "offset": 1826
+    },
+    {
+      "title": "In Step",
+      "samples": [
+        {
+          "start": 0,
+          "end": 56,
+          "artist": "Jermaine Stewart",
+          "title": "We Don't Have to Take Our Clothes Off"
+        },
+        {
+          "start": 0,
+          "end": 55,
+          "artist": "Drama",
+          "title": "Left, Right, Left"
+        },
+        {
+          "start": 0,
+          "end": 45,
+          "artist": "Roy Orbison",
+          "title": "You Got It"
+        },
+        {
+          "start": 30,
+          "end": 74,
+          "artist": "Deee-Lite",
+          "title": "Groove Is in the Heart"
+        },
+        {
+          "start": 47,
+          "end": 90,
+          "artist": "Salt-N-Pepa",
+          "title": "Push It"
+        },
+        {
+          "start": 60,
+          "end": 98,
+          "artist": "Nirvana",
+          "title": "Lithium"
+        },
+        {
+          "start": 75,
+          "end": 101,
+          "artist": "Thurston Moore",
+          "title": "See-Through Playmate"
+        },
+        {
+          "start": 97,
+          "end": 103,
+          "artist": "The Gap Band",
+          "title": "You Dropped a Bomb on Me"
+        },
+        {
+          "start": 101,
+          "end": 187,
+          "artist": "Fergie featuring Ludacris",
+          "title": "Glamorous"
+        },
+        {
+          "start": 103,
+          "end": 104,
+          "artist": "The Spinners",
+          "title": "Could It Be I'm Falling in Love"
+        },
+        {
+          "start": 104,
+          "end": 164,
+          "artist": "Earth, Wind & Fire",
+          "title": "September"
+        },
+        {
+          "start": 112,
+          "end": 134,
+          "artist": "INXS",
+          "title": "Need You Tonight"
+        },
+        {
+          "start": 120,
+          "end": 173,
+          "artist": "Kraftwerk",
+          "title": "Tour de France"
+        },
+        {
+          "start": 171,
+          "end": 172,
+          "artist": "Gloria Estefan and Miami Sound Machine",
+          "title": "1-2-3"
+        },
+        {
+          "start": 173,
+          "end": 202,
+          "artist": "The Beach Boys",
+          "title": "God Only Knows"
+        },
+        {
+          "start": 173,
+          "end": 195,
+          "artist": "Cameo",
+          "title": "Word Up!"
+        },
+        {
+          "start": 173,
+          "end": 187,
+          "artist": "Diddy featuring Keyshia Cole",
+          "title": "Last Night"
+        },
+        {
+          "start": 195,
+          "end": 202,
+          "artist": "Snoop Dogg",
+          "title": "Sexual Eruption"
+        },
+        {
+          "start": 201,
+          "end": 203,
+          "artist": "Bizarre Inc featuring Angie Brown",
+          "title": "I'm Gonna Get You"
+        }
+      ],
+      "offset": 2086
+    },
+    {
+      "title": "Let Me See You",
+      "samples": [
+        {
+          "start": 0,
+          "end": 36,
+          "artist": "Cameo",
+          "title": "Word Up!"
+        },
+        {
+          "start": 0,
+          "end": 12,
+          "artist": "Donna Summer",
+          "title": "Bad Girls"
+        },
+        {
+          "start": 1,
+          "end": 29,
+          "artist": "Dem Franchize Boyz featuring Peanut and Charlay",
+          "title": "Lean wit It, Rock wit It"
+        },
+        {
+          "start": 15,
+          "end": 24,
+          "artist": "Gwen Stefani featuring Akon",
+          "title": "The Sweet Escape"
+        },
+        {
+          "start": 30,
+          "end": 73,
+          "artist": "Bizarre Inc featuring Angie Brown",
+          "title": "I'm Gonna Get You"
+        },
+        {
+          "start": 30,
+          "end": 67,
+          "artist": "R. Kelly featuring T.I. and T-Pain",
+          "title": "I'm a Flirt"
+        },
+        {
+          "start": 67,
+          "end": 73,
+          "artist": "Donnie Iris",
+          "title": "Love Is Like a Rock"
+        },
+        {
+          "start": 73,
+          "end": 75,
+          "artist": "Daft Punk",
+          "title": "Harder, Better, Faster, Stronger"
+        },
+        {
+          "start": 73,
+          "end": 133,
+          "artist": "Tone Lōc",
+          "title": "Wild Thing"
+        },
+        {
+          "start": 75,
+          "end": 119,
+          "artist": "Fleetwood Mac",
+          "title": "Gypsy"
+        },
+        {
+          "start": 89,
+          "end": 90,
+          "artist": "Thin Lizzy",
+          "title": "Johnny the Fox Meets Jimmy the Weed"
+        },
+        {
+          "start": 90,
+          "end": 120,
+          "artist": "Trina featuring Keyshia Cole",
+          "title": "I Got a Thang for You"
+        },
+        {
+          "start": 120,
+          "end": 191,
+          "artist": "Justin Timberlake",
+          "title": "LoveStoned/I Think She Knows (Interlude)"
+        },
+        {
+          "start": 124,
+          "end": 192,
+          "artist": "The Jets",
+          "title": "Crush on You"
+        },
+        {
+          "start": 135,
+          "end": 163,
+          "artist": "Rick Ross",
+          "title": "Hustlin'"
+        },
+        {
+          "start": 138,
+          "end": 173,
+          "artist": "David Bowie",
+          "title": "Rebel Rebel"
+        },
+        {
+          "start": 164,
+          "end": 193,
+          "artist": "Luke featuring 2 Live Crew",
+          "title": "I Wanna Rock"
+        },
+        {
+          "start": 178,
+          "end": 241,
+          "artist": "M.I.A.",
+          "title": "Boyz"
+        },
+        {
+          "start": 193,
+          "end": 221,
+          "artist": "The Cranberries",
+          "title": "Dreams"
+        },
+        {
+          "start": 214,
+          "end": 243,
+          "artist": "Bachman–Turner Overdrive",
+          "title": "Takin' Care of Business"
+        },
+        {
+          "start": 222,
+          "end": 243,
+          "artist": "Michael Jackson",
+          "title": "P.Y.T. (Pretty Young Thing)"
+        },
+        {
+          "start": 232,
+          "end": 242,
+          "artist": "Chicago",
+          "title": "Saturday in the Park"
+        },
+        {
+          "start": 236,
+          "end": 243,
+          "artist": "Quad City DJ's",
+          "title": "C'mon N' Ride It (The Train)"
+        }
+      ],
+      "offset": 2289
+    },
+    {
+      "title": "Here's the Thing",
+      "samples": [
+        {
+          "start": 0,
+          "end": 27,
+          "artist": "Chicago",
+          "title": "Saturday in the Park"
+        },
+        {
+          "start": 0,
+          "end": 65,
+          "artist": "Quad City DJ's",
+          "title": "C'mon N' Ride It (The Train)"
+        },
+        {
+          "start": 14,
+          "end": 35,
+          "artist": "The Jaggerz",
+          "title": "The Rapper"
+        },
+        {
+          "start": 29,
+          "end": 36,
+          "artist": "The Bucketheads",
+          "title": "The Bomb! (These Sounds Fall into My Mind)"
+        },
+        {
+          "start": 34,
+          "end": 36,
+          "artist": "Tommy Roe",
+          "title": "Dizzy"
+        },
+        {
+          "start": 36,
+          "end": 65,
+          "artist": "? and the Mysterians",
+          "title": "96 Tears"
+        },
+        {
+          "start": 50,
+          "end": 138,
+          "artist": "Egyptian Lover",
+          "title": "Egypt, Egypt"
+        },
+        {
+          "start": 65,
+          "end": 126,
+          "artist": "Kelly Clarkson",
+          "title": "Since U Been Gone"
+        },
+        {
+          "start": 65,
+          "end": 93,
+          "artist": "The Zombies",
+          "title": "Time of the Season"
+        },
+        {
+          "start": 76,
+          "end": 93,
+          "artist": "Nine Inch Nails",
+          "title": "Wish"
+        },
+        {
+          "start": 105,
+          "end": 122,
+          "artist": "MC Hammer",
+          "title": "2 Legit 2 Quit"
+        },
+        {
+          "start": 128,
+          "end": 179,
+          "artist": "Blur",
+          "title": "Song 2"
+        },
+        {
+          "start": 133,
+          "end": 139,
+          "artist": "V.I.C.",
+          "title": "Get Silly"
+        },
+        {
+          "start": 138,
+          "end": 190,
+          "artist": "Elvis Costello and The Attractions",
+          "title": "Pump It Up"
+        },
+        {
+          "start": 140,
+          "end": 194,
+          "artist": "Shawty Lo",
+          "title": "Dey Know"
+        },
+        {
+          "start": 181,
+          "end": 199,
+          "artist": "Peter Bjorn and John featuring Victoria Bergsman",
+          "title": "Young Folks"
+        },
+        {
+          "start": 194,
+          "end": 244,
+          "artist": "Rick Springfield",
+          "title": "Jessie's Girl"
+        },
+        {
+          "start": 199,
+          "end": 200,
+          "artist": "The Prodigy",
+          "title": "Firestarter"
+        },
+        {
+          "start": 201,
+          "end": 227,
+          "artist": "Chris Brown featuring T-Pain",
+          "title": "Kiss Kiss"
+        },
+        {
+          "start": 201,
+          "end": 251,
+          "artist": "Mike and the Mechanics",
+          "title": "All I Need Is a Miracle"
+        },
+        {
+          "start": 227,
+          "end": 227,
+          "artist": "Veruca Salt",
+          "title": "Seether"
+        },
+        {
+          "start": 231,
+          "end": 257,
+          "artist": "Nelly Furtado",
+          "title": "Maneater"
+        },
+        {
+          "start": 232,
+          "end": 257,
+          "artist": "Three 6 Mafia featuring Unk",
+          "title": "I'd Rather"
+        },
+        {
+          "start": 251,
+          "end": 284,
+          "artist": "Looking Glass",
+          "title": "Brandy (You're a Fine Girl)"
+        },
+        {
+          "start": 257,
+          "end": 258,
+          "artist": "INXS",
+          "title": "What You Need"
+        },
+        {
+          "start": 274,
+          "end": 285,
+          "artist": "Dude 'n Nem",
+          "title": "Watch My Feet"
+        }
+      ],
+      "offset": 2532
+    },
+    {
+      "title": "Don't Stop",
+      "samples": [
+        {
+          "start": 0,
+          "end": 27,
+          "artist": "Dude 'n Nem",
+          "title": "Watch My Feet"
+        },
+        {
+          "start": 0,
+          "end": 12,
+          "artist": "Pink",
+          "title": "U + Ur Hand"
+        },
+        {
+          "start": 0,
+          "end": 12,
+          "artist": "DJ Funk",
+          "title": "Pump It"
+        },
+        {
+          "start": 13,
+          "end": 43,
+          "artist": "Underworld",
+          "title": "Born Slippy .NUXX"
+        },
+        {
+          "start": 20,
+          "end": 84,
+          "artist": "Wiz Khalifa",
+          "title": "Say Yeah"
+        },
+        {
+          "start": 26,
+          "end": 26,
+          "artist": "DeBarge",
+          "title": "Rhythm of the Night"
+        },
+        {
+          "start": 26,
+          "end": 44,
+          "artist": "DJ Deeon",
+          "title": "Shake What Your Momma Gave Ya"
+        },
+        {
+          "start": 27,
+          "end": 113,
+          "artist": "DJ Smurf",
+          "title": "Ride on Out, Bounce wit It"
+        },
+        {
+          "start": 28,
+          "end": 73,
+          "artist": "Michael Jackson",
+          "title": "Beat It"
+        },
+        {
+          "start": 43,
+          "end": 46,
+          "artist": "Megadeth",
+          "title": "Peace Sells"
+        },
+        {
+          "start": 47,
+          "end": 73,
+          "artist": "Usher featuring Young Jeezy",
+          "title": "Love in This Club"
+        },
+        {
+          "start": 72,
+          "end": 100,
+          "artist": "The Cure",
+          "title": "In Between Days"
+        },
+        {
+          "start": 100,
+          "end": 114,
+          "artist": "Ready for the World",
+          "title": "Oh Sheila"
+        },
+        {
+          "start": 100,
+          "end": 177,
+          "artist": "Soulja Boy",
+          "title": "Crank That (Soulja Boy)"
+        },
+        {
+          "start": 114,
+          "end": 176,
+          "artist": "Thin Lizzy",
+          "title": "Jailbreak"
+        },
+        {
+          "start": 163,
+          "end": 178,
+          "artist": "Electric Light Orchestra",
+          "title": "Don't Bring Me Down"
+        }
+      ],
+      "offset": 2817
+    },
+    {
+      "title": "Play Your Part (Pt. 2)",
+      "samples": [
+        {
+          "start": 0,
+          "end": 49,
+          "artist": "Soulja Boy",
+          "title": "Crank That (Soulja Boy)"
+        },
+        {
+          "start": 0,
+          "end": 11,
+          "artist": "Electric Light Orchestra",
+          "title": "Don't Bring Me Down"
+        },
+        {
+          "start": 3,
+          "end": 50,
+          "artist": "Lil Wayne featuring Static Major",
+          "title": "Lollipop"
+        },
+        {
+          "start": 12,
+          "end": 37,
+          "artist": "Red Hot Chili Peppers",
+          "title": "Under the Bridge"
+        },
+        {
+          "start": 38,
+          "end": 76,
+          "artist": "AC/DC",
+          "title": "Thunderstruck"
+        },
+        {
+          "start": 39,
+          "end": 94,
+          "artist": "Unk",
+          "title": "In Yo Face"
+        },
+        {
+          "start": 49,
+          "end": 50,
+          "artist": "ESG",
+          "title": "UFO"
+        },
+        {
+          "start": 51,
+          "end": 76,
+          "artist": "The Escape Club",
+          "title": "Wild, Wild West"
+        },
+        {
+          "start": 78,
+          "end": 87,
+          "artist": "Dem Franchize Boyz",
+          "title": "White Tee"
+        },
+        {
+          "start": 78,
+          "end": 86,
+          "artist": "Jibbs featuring Chamillionaire",
+          "title": "King Kong"
+        },
+        {
+          "start": 81,
+          "end": 187,
+          "artist": "Yung Berg featuring Dude 'n Nem",
+          "title": "Do That There"
+        },
+        {
+          "start": 89,
+          "end": 166,
+          "artist": "Huey",
+          "title": "Pop, Lock & Drop It"
+        },
+        {
+          "start": 89,
+          "end": 114,
+          "artist": "George Harrison",
+          "title": "What Is Life"
+        },
+        {
+          "start": 115,
+          "end": 204,
+          "artist": "Journey",
+          "title": "Faithfully"
+        },
+        {
+          "start": 191,
+          "end": 202,
+          "artist": "UGK featuring Outkast",
+          "title": "Int'l Players Anthem (I Choose You)"
+        }
+      ],
+      "offset": 2995
+    }
+  ]
+}
