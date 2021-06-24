@@ -3,6 +3,7 @@ import { usePlayer } from "./hooks/usePlayer";
 import { clamp } from "./util/clamp";
 import { secondsToTime } from "./util/secondsToTime";
 import ReactPlayer from "react-player";
+import styled from "styled-components";
 
 export interface Sample {
   start: number;
@@ -18,14 +19,40 @@ export interface Track {
 }
 
 export interface Mashup {
+  artist: string;
+  title: string;
   url: string;
-  filename: string;
+  source: string;
   tracks: Track[];
 }
 
 export interface MashupBreakdownProps {
   data: Mashup;
 }
+
+const Layout = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  > main {
+    flex-grow: 1;
+    background-color: ghostwhite;
+  }
+  > footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    font-size: 0.8em;
+    border-top: 1px solid;
+    border-color: lightgray;
+    background-color: crimson;
+    color: white;
+    a {
+      color: white;
+      margin: 0 0.5em;
+    }
+  }
+`;
 
 export function MashupBreakdown({ data }: MashupBreakdownProps) {
   const tracks = useMemo(() => {
@@ -101,7 +128,7 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
   }, [samples, lowResStart, lowResEnd]);
 
   return (
-    <>
+    <Layout>
       <ReactPlayer
         playing={player.playing}
         url={data.url}
@@ -115,72 +142,88 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
         onEnded={player.pause}
       />
       {duration > 0 && (
-        <div className="seek-window">
-          <div className="seek-tracks">
-            {inViewTracks.map((track) => {
-              const active = track.start <= seek && track.end >= seek;
-              const start = Math.max(windowStart, track.start);
-              const end = Math.min(windowEnd, track.end);
-              const width = clamp(0, 100, ((end - start) / zoom) * 100);
-              const offset = windowStart < 0 ? (-windowStart / zoom) * 100 : 0;
+        <>
+          <main className="seek-window">
+            <div className="seek-tracks">
+              {inViewTracks.map((track) => {
+                const active = track.start <= seek && track.end >= seek;
+                const start = Math.max(windowStart, track.start);
+                const end = Math.min(windowEnd, track.end);
+                const width = clamp(0, 100, ((end - start) / zoom) * 100);
+                const offset =
+                  windowStart < 0 ? (-windowStart / zoom) * 100 : 0;
 
-              return (
-                <div
-                  key={track.title}
-                  style={{ width: `${width}%`, marginLeft: `${offset}%` }}
-                  className={["sample track", active && "active"]
-                    .filter(Boolean)
-                    .join(" ")}
-                >
-                  <div className="description">{track.title}</div>
-                </div>
-              );
-            })}
-          </div>
-          <div className="seek-samples">
-            {inViewSamples.map((sample) => {
-              const active = sample.start <= seek && sample.end >= seek;
-              const left =
-                sample.start <= windowStart
-                  ? 0
-                  : clamp(0, 100, ((sample.start - windowStart) / zoom) * 100);
-
-              const right =
-                sample.end >= windowEnd
-                  ? 0
-                  : clamp(0, 100, ((windowEnd - sample.end) / zoom) * 100);
-
-              const title = `${sample.artist}, ${sample.title}`;
-              return (
-                <div
-                  key={sample.idx}
-                  style={{ marginLeft: `${left}%`, marginRight: `${right}%` }}
-                  className={["sample", active && "active"]
-                    .filter(Boolean)
-                    .join(" ")}
-                >
-                  <div className="description">
-                    <a
-                      target="_blank"
-                      href={`http://www.google.com/search?btnI&q=${encodeURIComponent(
-                        `site:youtube.com ${title}`
-                      )}`}
-                      onClick={() => player.pause()}
-                    >
-                      {title}
-                    </a>
-                    <br />
-                    <small>
-                      {secondsToTime(sample.start)} -{" "}
-                      {secondsToTime(sample.end)}
-                    </small>
+                return (
+                  <div
+                    key={track.title}
+                    style={{ width: `${width}%`, marginLeft: `${offset}%` }}
+                    className={["sample track", active && "active"]
+                      .filter(Boolean)
+                      .join(" ")}
+                  >
+                    <div className="description">{track.title}</div>
                   </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
+                );
+              })}
+            </div>
+            <div className="seek-samples">
+              {inViewSamples.map((sample) => {
+                const active = sample.start <= seek && sample.end >= seek;
+                const left =
+                  sample.start <= windowStart
+                    ? 0
+                    : clamp(
+                        0,
+                        100,
+                        ((sample.start - windowStart) / zoom) * 100
+                      );
+
+                const right =
+                  sample.end >= windowEnd
+                    ? 0
+                    : clamp(0, 100, ((windowEnd - sample.end) / zoom) * 100);
+
+                const title = `${sample.artist}, ${sample.title}`;
+                return (
+                  <div
+                    key={sample.idx}
+                    style={{ marginLeft: `${left}%`, marginRight: `${right}%` }}
+                    className={["sample", active && "active"]
+                      .filter(Boolean)
+                      .join(" ")}
+                  >
+                    <div className="description">
+                      <a
+                        target="_blank"
+                        href={`http://www.google.com/search?btnI&q=${encodeURIComponent(
+                          `site:youtube.com ${title}`
+                        )}`}
+                        onClick={() => player.pause()}
+                      >
+                        {title}
+                      </a>
+                      <br />
+                      <small>
+                        {secondsToTime(sample.start)}&mdash;
+                        {secondsToTime(sample.end)}
+                      </small>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </main>
+          <footer>
+            sauce:
+            <a href={data.source} target="_blank">
+              timings
+            </a>
+            <a href="https://favicon.io/" target="_blank">
+              favicon
+            </a>
+          </footer>
+        </>
       )}
-    </>
+    </Layout>
   );
 }

@@ -2,11 +2,22 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
 .seek-window {
   display: flex;
   flex-direction: column;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  flex-grow: 1;
+  padding-top: 10px;
 }
 .seek-window:after {
   content: "";
@@ -16,7 +27,7 @@
   width: 0px;
   border: 0 solid transparent;
   border-top-color: black;
-  border-width: 15px 10px 0px 10px;
+  border-width: 10px 10px 0px 10px;
   margin-left: -10px;
   opacity: 0.5;
 }
@@ -47,7 +58,7 @@
   margin: 0.5rem;
 }
 .sample.active {
-  background-color: chartreuse;
+  background-color: #bada55;
 }
 
 .sample.track {
