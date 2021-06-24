@@ -86,7 +86,7 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
   }, [data]);
 
   const [duration, setDuration] = useState(0);
-  const [zoom] = useState(30); // seconds to show in the sliding window
+  const [zoom] = useState(20); // seconds to show in the sliding window
   const player = usePlayer(duration);
   const seek = player.currentSeek();
 

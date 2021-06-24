@@ -17,7 +17,6 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   flex-grow: 1;
-  padding-top: 10px;
 }
 .seek-window:after {
   content: "";
@@ -26,10 +25,9 @@ body {
   left: 50%;
   width: 0px;
   border: 0 solid transparent;
-  border-top-color: black;
+  border-top-color: crimson;
   border-width: 10px 10px 0px 10px;
   margin-left: -10px;
-  opacity: 0.5;
 }
 .seek-tracks {
   display: flex;
