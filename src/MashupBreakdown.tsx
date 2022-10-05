@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import ReactPlayer from "react-player";
+import styled from "styled-components";
 import { usePlayer } from "./hooks/usePlayer";
 import { clamp } from "./util/clamp";
 import { secondsToTime } from "./util/secondsToTime";
-import ReactPlayer from "react-player";
-import styled from "styled-components";
+import { useLocalStorage } from "./hooks/useLocalStorage";
 
 export interface Sample {
   start: number;
@@ -27,7 +28,7 @@ export interface Mashup {
 }
 
 export interface MashupBreakdownProps {
-  data: Mashup;
+  albums: Record<string, Mashup>;
 }
 
 const Layout = styled.div`
@@ -40,8 +41,8 @@ const Layout = styled.div`
   }
   > footer {
     display: flex;
-    justify-content: center;
-    padding: 1em 0;
+    justify-content: space-between;
+    padding: 1em 0.5rem;
     font-size: 0.8em;
     border-top: 1px solid;
     border-color: lightgray;
@@ -54,9 +55,12 @@ const Layout = styled.div`
   }
 `;
 
-export function MashupBreakdown({ data }: MashupBreakdownProps) {
+export function MashupBreakdown({ albums }: MashupBreakdownProps) {
+  const [selected, setSelected] = useLocalStorage('mubd-album', Object.keys(albums)[0]);
+  const album = albums[selected];
+
   const tracks = useMemo(() => {
-    return data.tracks.reduce<
+    return album.tracks.reduce<
       Array<{ title: string; start: number; end: number; length: number }>
     >((out, track) => {
       const last = out.slice(-1)[0];
@@ -71,10 +75,10 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
       });
       return out;
     }, []);
-  }, [data]);
+  }, [album]);
 
   const samples = useMemo<Array<Sample & { idx: number }>>(() => {
-    return data.tracks
+    return album.tracks
       .flatMap((track) => {
         return track.samples.map((sample) => ({
           ...sample,
@@ -83,18 +87,20 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
         }));
       })
       .map((sample, idx) => ({ ...sample, idx }));
-  }, [data]);
+  }, [album]);
 
   const [duration, setDuration] = useState(0);
   const [zoom] = useState(20); // seconds to show in the sliding window
+  const [rp, setRp] = useState<ReactPlayer | null>(null);
   const player = usePlayer(duration);
-  const seek = player.currentSeek();
+  const currentSeek = player.currentSeek();
+  const seek = player.seek;
 
   const onProgress = useCallback(
     (data: { playedSeconds: number }) => {
-      player.seek(data.playedSeconds);
+      seek(data.playedSeconds);
     },
-    [player.seek]
+    [seek]
   );
 
   useEffect(() => {
@@ -106,8 +112,8 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
     }
   }, [player.playing, player.update]);
 
-  const windowStart = seek - zoom / 2;
-  const windowEnd = seek + zoom / 2;
+  const windowStart = currentSeek - zoom / 2;
+  const windowEnd = currentSeek + zoom / 2;
   const lowResStart = Math.floor(windowStart);
   const lowResEnd = Math.floor(windowEnd);
 
@@ -129,12 +135,16 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
 
   return (
     <Layout>
+      {/* @ts-ignore */}
       <ReactPlayer
         playing={player.playing}
-        url={data.url}
+        url={album.url}
         width="100%"
         height="200px"
-        onReady={(rp) => setDuration(rp.getDuration())}
+        onReady={(rp) => {
+          setRp(rp);
+          setDuration(rp.getDuration())
+        }}
         onPlay={player.play}
         onPause={player.pause}
         onProgress={onProgress}
@@ -146,7 +156,7 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
           <main className="seek-window">
             <div className="seek-tracks">
               {inViewTracks.map((track) => {
-                const active = track.start <= seek && track.end >= seek;
+                const active = track.start <= currentSeek && track.end >= currentSeek;
                 const start = Math.max(windowStart, track.start);
                 const end = Math.min(windowEnd, track.end);
                 const width = clamp(0, 100, ((end - start) / zoom) * 100);
@@ -168,7 +178,7 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
             </div>
             <div className="seek-samples">
               {inViewSamples.map((sample) => {
-                const active = sample.start <= seek && sample.end >= seek;
+                const active = sample.start <= currentSeek && sample.end >= currentSeek;
                 const left =
                   sample.start <= windowStart
                     ? 0
@@ -195,7 +205,8 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
                     <div className="description">
                       <a
                         target="_blank"
-                        href={`http://www.google.com/search?btnI&q=${encodeURIComponent(
+                        rel="noreferrer"
+                        href={`https://www.google.com/search?btnI&q=${encodeURIComponent(
                           `site:youtube.com ${title}`
                         )}`}
                         onClick={() => player.pause()}
@@ -214,13 +225,22 @@ export function MashupBreakdown({ data }: MashupBreakdownProps) {
             </div>
           </main>
           <footer>
-            sauce:
-            <a href={data.source} target="_blank">
-              timings
-            </a>
-            <a href="https://favicon.io/" target="_blank">
-              favicon
-            </a>
+            <select defaultValue={selected} onChange={e => {
+              player.pause();
+              rp?.seekTo(0);
+              setSelected(e.target.value)
+            }}>
+              {Object.entries(albums).map(([k, v]) => <option key={k} value={k}>{v.title}</option>)}
+            </select>
+            <div>
+                sauce:
+                <a href={album.source} target="_blank" rel="noreferrer">
+                  timings
+                </a>
+                <a href="https://favicon.io/" target="_blank" rel="noreferrer">
+                  favicon
+                </a>
+            </div>
           </footer>
         </>
       )}
